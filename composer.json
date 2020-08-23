@@ -1,5 +1,6 @@
 {
     "name": "tankov/fram",
+    "description": "learning framework",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -8,5 +9,20 @@
             "email": "tan.kov@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "files": [
+            "index.php"
+        ],
+        "psr-4": {
+            "Fram\\": "fram/"
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf"
+    }
 }
