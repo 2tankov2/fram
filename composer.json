@@ -1,0 +1,12 @@
+{
+    "name": "tankov/fram",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tankov",
+            "email": "tan.kov@hotmail.com"
+        }
+    ],
+    "require": {}
+}
