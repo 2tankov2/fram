@@ -48,7 +48,7 @@ class Application implements ApplicationInterface
         }
     }
  */
-private $handlers = [];
+    private $handlers = [];
 
     public function get($route, $handler)
     {
@@ -69,7 +69,6 @@ private $handlers = [];
             $preparedRoute = preg_quote($route, '/');
             if ($method === $handlerMethod && preg_match("/^$preparedRoute$/i", $uri)) {
                 echo $handler();
-                return;
             }
         }
     }

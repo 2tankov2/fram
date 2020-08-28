@@ -15,10 +15,11 @@
     },
     "autoload": {
         "files": [
-            "index.php"
+            "src/Template.php",
+            "src/Renderer.php"
         ],
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src"
         }
     },
     "scripts": {
